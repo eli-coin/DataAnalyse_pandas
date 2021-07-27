@@ -7,7 +7,7 @@
 在csv文件中的某些列中，查找包含指定关键字的行
 """
 import pandas as pd
-filename_read = "info.csv" #源文件
+filename_read = "信息表.csv" #源文件
 filename_result = 'Result.csv'#输出文件
 KEYS = ["网络", "计算机", "软件", "信息"]#筛选根据关键字
 COLUMNS = ['第一学历专业', '最高学历专业']#需要筛选的列
